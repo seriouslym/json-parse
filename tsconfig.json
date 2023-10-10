@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection"
+    ]
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": [
+    "node_modules"
+  ]
+}

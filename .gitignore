@@ -1,0 +1,14 @@
+build
+node_modules
+.cache
+.git
+.tern-project
+npm-debug.log
+package-lock.json
+.scannerwork
+.sonarlint
+.idea
+.vscode
+autoTag.py
+dist/
+SingleInput.txt

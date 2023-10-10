@@ -1,0 +1,36 @@
+digraph astgraph { 
+node [shape=circle, fontsize=12, fontname="Courier", height=.1]; 
+ranksep=.3;
+edge [arrowsize=.5]
+node1 [label="Dict"]
+node1 -> node2
+node2 [label="key: name"]
+node2 -> node3
+node3 [label="number: 1.232"]
+node1 -> node5
+node5 [label="key: age"]
+node5 -> node6
+node6 [label="string: 2"]
+node1 -> node8
+node8 [label="key: l"]
+node8 -> node9
+node9 [label="List"]
+node9 -> node10
+node10 [label="number: 1"]
+node9 -> node12
+node12 [label="number: 2"]
+node9 -> node14
+node14 [label="number: 3"]
+node9 -> node16
+node16 [label="Dict"]
+node16 -> node17
+node17 [label="key: age"]
+node17 -> node18
+node18 [label="List"]
+node18 -> node19
+node19 [label="number: 1"]
+node18 -> node21
+node21 [label="number: 2"]
+node18 -> node23
+node23 [label="string: name"]
+}

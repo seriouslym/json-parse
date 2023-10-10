@@ -1,0 +1,11 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node ./dist/interpreter",
+    "test": "tsc && node ./dist/test/test"
+  },
+  "dependencies": {
+    "@types/node": "^20.5.7"
+  }
+}
